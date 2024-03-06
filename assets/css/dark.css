@@ -1,0 +1,41 @@
+body {
+  font-family: "Fira Sans", sans-serif;
+  background-color: #121212; /*1c1c27*/
+}
+
+.head {
+  color: #e1e1e1;
+  height: 80px;
+  margin: 20px 0px 10px 0px;
+}
+
+#myChart {
+margin: 0;
+padding: 0;
+max-width: 100%;;
+max-height: 100%;
+}
+
+#sidebar {
+  padding: 20px 0 0 20px;
+  border-radius:6px;
+}
+
+/* #sidebar {
+  background-color: #192027;
+  background-color: #1d1d1d; 33333e
+  color: #e1e1e1;
+  padding: 20px 0 0 20px;
+  border-radius:6px;
+} */
+
+#sidebar h3, #sidebar h4, #sidebar h1{color:#e1e1e1;}
+
+
+
+.table-striped tbody tr:nth-of-type(odd) { background-color: #f9f9f9}
+ .table-striped tbody tr:nth-of-type(even) { background-color: #ede8f6}
+.dataTables_filter {display: none;}
+.dataTables_length {display: none;}
+.dataTables_info {display: none;}
+.dataTables_paginate {display: none;}
